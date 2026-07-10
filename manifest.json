@@ -1,0 +1,103 @@
+{
+  "name": "IbraSoft ERP Enterprise",
+  "short_name": "IbraSoft ERP",
+  "description": "نظام إدارة الموارد المتكامل - إدارة الفواتير والمخزون والعملاء والمحاسبة بكل احترافية",
+  "id": "ibrasoft-erp-enterprise-v1",
+  "start_url": "./IBraSoft_ERP.html",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "minimal-ui"],
+  "orientation": "portrait-primary",
+  "theme_color": "#6366f1",
+  "background_color": "#020617",
+  "scope": "./",
+  "lang": "ar",
+  "dir": "rtl",
+  "categories": ["business", "finance", "productivity"],
+  "icons": [
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "📊 لوحة القيادة",
+      "short_name": "لوحة القيادة",
+      "description": "عرض لوحة التحكم والإحصائيات",
+      "url": "./IBraSoft_ERP.html?page=dashboard",
+      "icons": [
+        {
+          "src": "./icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "🛒 نقطة البيع",
+      "short_name": "نقطة البيع",
+      "description": "فتح شاشة البيع السريع",
+      "url": "./IBraSoft_ERP.html?page=pos",
+      "icons": [
+        {
+          "src": "./icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "📦 المخزون",
+      "short_name": "المخزون",
+      "description": "عرض وإدارة المخزون",
+      "url": "./IBraSoft_ERP.html?page=inventory",
+      "icons": [
+        {
+          "src": "./icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "🧾 الفواتير",
+      "short_name": "الفواتير",
+      "description": "عرض فواتير المبيعات",
+      "url": "./IBraSoft_ERP.html?page=sales",
+      "icons": [
+        {
+          "src": "./icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "launch_handler": {
+    "client_mode": ["focus-existing", "auto"]
+  },
+  "protocol_handlers": [
+    {
+      "protocol": "web+ibrasoft",
+      "url": "./IBraSoft_ERP.html?q=%s"
+    }
+  ],
+  "edge_side_panel": {
+    "preferred_width": 400
+  },
+  "tabbed": {
+    "enabled": true,
+    "new_tab_button": "auto"
+  },
+  "note_taking": {
+    "new_note_url": "./IBraSoft_ERP.html?page=dashboard"
+  }
+}
