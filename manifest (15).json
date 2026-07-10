@@ -1,0 +1,15 @@
+{
+  "background_color": "#ffffff",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "IbraSoft ERP",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "ibrasoft-erp",
+  "start_url": "/",
+  "theme_color": "#ffffff",
+  "description": "نظام إبراهيم سوفت \nنظام إدارة الموارد المتكامل - إدارة الفواتير والمخزون والعملاء والمحاسبة بكل احترافية",
+  "categories": [
+    "business"
+  ]
+}
