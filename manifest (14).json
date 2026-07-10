@@ -1,0 +1,15 @@
+{
+  "background_color": "#ffffff",
+  "description": "نظام إبراهيم الحمادي / نظام ERP مكتمل",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "ibrasoft-erp",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "ibrasoft-erp",
+  "start_url": "/",
+  "theme_color": "#ffffff",
+  "categories": [
+    "business"
+  ]
+}
